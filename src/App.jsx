@@ -96,7 +96,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>ScamShield AI</h1>
+        <h1>ScamSentinel AI</h1>
         <p className="subtitle">Detect job scams and fraudulent internships using advanced AI analysis.</p>
       </header>
 
@@ -221,7 +221,7 @@ function App() {
       </div>
 
       <footer className="mt-20 text-center text-muted text-sm border-t border-white/5 pt-10 w-full mb-10">
-        ScamShield AI © 2026 • Professional Security & Fraud Prevention
+        ScamSentinel AI © 2026 • Professional Security & Fraud Prevention
       </footer>
     </div>
   );

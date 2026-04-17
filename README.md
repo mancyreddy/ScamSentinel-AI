@@ -1,4 +1,4 @@
-# 🛡️ ScamShield AI
+# 🛡️ ScamSentinel AI
 
 An advanced, full-stack application for detecting job and internship scams using a hybrid approach of Deep Learning (BiLSTM) and Rule-Based AI analysis.
 
