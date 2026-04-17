@@ -23,7 +23,7 @@ if os.name == 'nt':
             print(f"Auto-detected Tesseract at: {path}")
             break
 
-app = FastAPI(title="AI Risk Analyzer API")
+app = FastAPI(title="ScamSentinel AI - Risk Analysis API")
 
 # Enable CORS for React frontend
 app.add_middleware(
@@ -110,7 +110,7 @@ async def upload_tokenizer(file: UploadFile = File(...)):
 
 @app.get("/")
 def health_check():
-    return {"status": "AI Risk Analyzer Backend is running"}
+    return {"status": "ScamSentinel AI Backend is running"}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
