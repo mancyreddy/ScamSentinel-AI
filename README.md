@@ -45,6 +45,8 @@ ScamSentinel AI is a high-performance system designed to protect job seekers fro
 ### 2. Start the Backend
 ```bash
 cd backend
+python -m venv venv
+.\venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 python main.py
 ```
