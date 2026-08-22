@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { ShieldAlert, ShieldCheck, AlertCircle, Upload, FileText, Loader2, CheckCircle2 } from 'lucide-react';
 
-const API_BASE = "http://127.0.0.1:8000";
+// Use environment variable for API URL in production, fallback to localhost for development
+const API_BASE = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
 function App() {
   const [inputText, setInputText] = useState('');
