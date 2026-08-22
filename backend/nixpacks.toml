@@ -1,0 +1,5 @@
+# nixpacks.toml for Railway deployment
+# This installs Tesseract OCR in the Linux container automatically without Docker.
+
+[phases.setup]
+nixPkgs = ["...", "tesseract"]
